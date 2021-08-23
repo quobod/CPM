@@ -21,7 +21,7 @@ def set_ext_name():
 
 def set_save_destination():
     dest_path = simpledialog.askstring(title="Save Destination",
-                                       prompt="Where should I save the file?:")
+                                       prompt="Where should the file be saved?:")
     if None == dest_path:
         return
     if not dest_path.rfind(os.sep):
